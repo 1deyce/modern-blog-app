@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.15",
+    "dotenv": "^16.3.1",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "graphql": "^16.8.0",
