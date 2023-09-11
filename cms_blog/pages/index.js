@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { PostCard, PostWidget, Categories, Header } from "../components";
 import { getPosts } from "../services";
+import { getInitialProps } from "next/router";
 
 const posts = [
   { title: 'React Testing', excerpt: 'Learn React Testing' },
@@ -11,7 +12,7 @@ export default function Home({ posts }) {
   return (
     <div className='container mx-auto px-10 mb-8'>
       <Head>
-        <title>blogly</title>
+        <title>Blogly</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
