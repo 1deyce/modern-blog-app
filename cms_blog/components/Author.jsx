@@ -13,8 +13,8 @@ const Author = ({ author }) => {
                     loader={graphCMSImageLoader}
                     src={author.photo.url} 
                     alt={author.name}
-                    height={100}
-                    width={100} 
+                    height="100"
+                    width="100" 
                 />
             </div>
             <h3 className='text-white my-4 text-xl font-bold'>{author.name}</h3>
