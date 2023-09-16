@@ -41,11 +41,11 @@ export const getPosts = async () => {
 
 export const getCategories = async () => {
   const query = gql`
-    query GetGategories {
-        categories {
-          name
-          slug
-        }
+    query GetCategories {
+      categories {
+        name
+        slug
+      }
     }
   `;
 
